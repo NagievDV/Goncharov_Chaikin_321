@@ -13,5 +13,6 @@ namespace Goncharov_Chaikin_321
     /// </summary>
     public partial class App : Application
     {
+
     }
 }
