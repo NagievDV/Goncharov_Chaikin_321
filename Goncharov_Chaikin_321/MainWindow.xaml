@@ -9,22 +9,22 @@
         >
 
     <Grid>
-        <Label Content="Choose a function:" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="shRadioButton" Content="sh(x)" HorizontalAlignment="Left" Margin="120,134,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="x2RadioButton" Content="x^2" HorizontalAlignment="Left" Margin="200,134,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="exRadioButton" Content="e^x" HorizontalAlignment="Left" Margin="280,134,0,0" VerticalAlignment="Top"/>
+        <Label Content="Choose a function:" HorizontalAlignment="Left" Margin="6,128,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="shRadioButton" ToolTip="Гиперболический синус" Content="sh(x)" HorizontalAlignment="Left" Margin="120,134,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="x2RadioButton" ToolTip="X в квадрате" Content="x^2" HorizontalAlignment="Left" Margin="199,134,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="exRadioButton" ToolTip="Экспонента в степени X" Content="e^x" HorizontalAlignment="Left" Margin="280,134,0,0" VerticalAlignment="Top"/>
 
-        <Label Content="Enter value of x:" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="xTextBox" HorizontalAlignment="Left" Margin="120,164,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Enter value of x:" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="xTextBox" ToolTip="Значение X" HorizontalAlignment="Left" Margin="120,165,0,0" VerticalAlignment="Top" Width="100" Height="26"/>
 
-        <Label Content="Enter value of b:" HorizontalAlignment="Left" Margin="8,187,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="xTextBox2" HorizontalAlignment="Left" Margin="120,195,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Enter value of b:" HorizontalAlignment="Left" Margin="8,205,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="xTextBox2" ToolTip="Значение Y" HorizontalAlignment="Left" Margin="120,205,0,0" VerticalAlignment="Top" Width="100" Height="26"/>
 
-        <Button Content="Calculate" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top" Width="75" Click="Calculate_Click"/>
-        <Button Content="Clear" HorizontalAlignment="Left" Margin="100,218,0,0" VerticalAlignment="Top" Width="75" Click="Clear_Click"/>
+        <Button Content="Calculate" ToolTip="Рассчитать" HorizontalAlignment="Left" Margin="89,243,0,0" VerticalAlignment="Top" Width="75" Click="Calculate_Click"/>
+        <Button Content="Clear" ToolTip="Очистить данные" HorizontalAlignment="Left" Margin="214,243,0,0" VerticalAlignment="Top" Width="75" Click="Clear_Click"/>
 
-        <Label Content="Result:" HorizontalAlignment="Left" Margin="10,248,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Margin="60,248,0,0" VerticalAlignment="Top" Width="200" IsReadOnly="True"/>
+        <Label Content="Result:" HorizontalAlignment="Left" Margin="19,272,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="resultTextBox" ToolTip="Ответ" HorizontalAlignment="Left" Margin="89,276,0,0" VerticalAlignment="Top" Width="200" IsReadOnly="True" Height="27"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="19,19,0,0" VerticalAlignment="Top" Width="300" Source="image.png"/>
     </Grid>
 </Window>
