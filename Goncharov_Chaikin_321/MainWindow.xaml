@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Goncharov_Chaikin_321"
         mc:Ignorable="d"
-        Title="MainWindow" Height="572" Width="800" Closing="Window_Closing_1"
+        Title="MainWindow" Height="355" Width="358" Closing="Window_Closing_1"
         >
 
-    <Grid>
+    <Grid Margin="0,0,2,1">
         <Label Content="Choose a function:" HorizontalAlignment="Left" Margin="6,128,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="shRadioButton" ToolTip="Гиперболический синус" Content="sh(x)" HorizontalAlignment="Left" Margin="120,134,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="x2RadioButton" ToolTip="X в квадрате" Content="x^2" HorizontalAlignment="Left" Margin="199,134,0,0" VerticalAlignment="Top"/>
